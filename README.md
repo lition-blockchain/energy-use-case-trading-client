@@ -1,4 +1,12 @@
 # Lition Frontend
+
+<p align="center">
+   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>
+</p>
+<p align="center">
+    <a href="https://twitter.com/intent/follow?screen_name=Lition_Block"><img src="https://img.shields.io/twitter/follow/Lition_Block.svg?style=social&label=Follow%20@Lition_Block" alt="Follow on Twitter"></a>  
+</p>
+
 ## Introduction
 [Lition](https://kundenportal.lition.de) is the first platform in the world that unites the idea of selling green energy and paying for it with blockchain. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
 
