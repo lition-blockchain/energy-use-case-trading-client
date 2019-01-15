@@ -2,6 +2,9 @@
 
 <p align="center">
    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License: Apache-2.0"></a>
+   <a href="https://codecov.io/gh/archik408/trading-platform-client"><img src="https://codecov.io/gh/archik408/trading-platform-client/branch/master/graph/badge.svg" alt="Codecov Badge"></a>
+   <a href="https://codecov.io/gh/archik408/trading-platform-client"><img src="https://img.shields.io/badge/coverage-98-green.svg" alt="Test Coverage Badge"></a>
+   <a href="https://bitbucket.org/lition/frontend/addon/pipelines/home#!/results/411"><img src="https://img.shields.io/badge/build-success-lightgreen.svg" alt="Test Coverage Badge"></a>
 </p>
 <p align="center">
     <a href="https://twitter.com/intent/follow?screen_name=Lition_Block"><img src="https://img.shields.io/twitter/follow/Lition_Block.svg?style=social&label=Follow%20@Lition_Block" alt="Follow on Twitter"></a>  
