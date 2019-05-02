@@ -53,7 +53,7 @@ export class Notifications extends Component {
         const { open, notification } = this.state;
 
         return (
-            <div aria-hidden={!!open ? undefined : true} aria-live="polite" className="notifications">
+            <div aria-hidden={!!open ? undefined : true} aria-live="assertive" className="notifications">
                 <Notification
                     open={open}
                     defaultErrorMessage={formatMessage(messages.defaultErrorMessage)}

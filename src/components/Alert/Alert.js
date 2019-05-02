@@ -48,7 +48,7 @@ export default class Alert extends React.Component {
 
                     return (
                         <div className="alert-collapse" style={style}>
-                            <div className={classes} ref={ref => (this.alertRef = ref)} role="alert" aria-live="polite">
+                            <div className={classes} ref={ref => (this.alertRef = ref)} role="alert" aria-live="assertive">
                                 <FontAwesomeIcon className="alert-icon" icon={this.props.icon} />
                                 <p className="alert-content">{this.props.children}</p>
                             </div>
