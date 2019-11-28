@@ -1,4 +1,4 @@
-# Lition Energy Use Case Frontend
+# Nordic Energy - Energy Trading Client Application
 
 <p align="left">
    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br />
@@ -11,17 +11,17 @@
 </p>
 
 ## Introduction
-[Lition](https://www.lition.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Lition's live P2P trading use case, and co-innovated with SAP.
+[Nordic Energy](https://www.lition.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Nordic Energy's P2P energy trading use case, and co-innovated with SAP.
 
-This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.lition.de with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
+This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.nordicenergu.co with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
 
-There are several articles written by Lition Tech-Lead which describe the chosen approaches of development in full. Links to them can be found below:
+There are several articles written by Nordic Energy Tech-Lead which describe the chosen approaches of development in full. Links to them can be found below:
 
-1. [React architecture and approach](https://medium.com/lition-blog/lition-and-react-js-devblog-90843c9f1d10)
-2. [Layout](https://medium.com/lition-blog/layout-of-trading-platform-devblog-aab5a61bdbf3)
-3. [Testing](https://medium.com/lition-blog/tests-docs-for-lition-front-end-devblog-242b33a69df5)
+1. [React architecture and approach](https://medium.com/nordicenergy-blog/nordicenegy-and-react-js-devblog-90843c9f1d10)
+2. [Layout](https://medium.com/nordicenergy-blog/layout-of-trading-platform-devblog-aab5a61bdbf3)
+3. [Testing](https://medium.com/nordicenergy-blog/tests-docs-for-energytrading-front-end-devblog-242b33a69df5)
   
-Besides, Lition has its own UI-kit which is currently under development, but it is also based on React and Styleguidist.
+Besides, Nordic Energy has its own UI-kit which is currently under development, but it is also based on React and Styleguidist.
 
 ## Installation and start
 First step is to install all application dependencies:
