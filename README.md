@@ -1,6 +1,7 @@
 
 # Nordic Energy - Energy Trading Client Frontend
 
+
 <p align="left">
    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br />
    <a href="https://codecov.io/gh/archik408/trading-platform-client"><img src="https://codecov.io/gh/archik408/trading-platform-client/branch/master/graph/badge.svg" alt="Codecov Badge"></a>
@@ -23,6 +24,7 @@ There are several articles written by Nordic Energy Tech-Lead which describe the
 3. [Testing](https://medium.com/nordicenergy-blog/tests-docs-for-energytrading-front-end-devblog-242b33a69df5)
   
 Besides, Nordic Energy has its own UI-kit which is currently under development, but it is also based on React and Styleguidist.
+
 
 ## Installation and start
 First step is to install all application dependencies:
