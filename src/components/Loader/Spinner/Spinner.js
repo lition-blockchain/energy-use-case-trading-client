@@ -19,7 +19,7 @@ Spinner.propTypes = {
     size: PropTypes.oneOf(['sm', 'md', 'lg'])
 };
 Spinner.defaultProps = {
-    color: '#48d376',
+    color: '#cc9900',
     size: 'md'
 };
 

@@ -1,14 +1,14 @@
 import Axios from 'axios';
 import {
-    getProducer,
-    getCurrentProducer,
-    selectProducer,
-    getProducers,
-    getProducerHistory,
-    getOwnedProducerOffer,
     addOwnedProducerOffer,
     getCurrentMarketPrice,
-    getOwnedProducerOffersHistory
+    getCurrentProducer,
+    getOwnedProducerOffer,
+    getOwnedProducerOffersHistory,
+    getProducer,
+    getProducerHistory,
+    getProducers,
+    selectProducer
 } from '../producers';
 import { LIMIT } from '../../../constants';
 
@@ -28,7 +28,7 @@ describe('Producers API Service', () => {
         Axios.post.mockClear();
     });
 
-    it('should provide method for getting specific producer (when soldout flag is false for current user)', async () => {
+    it('should provide method for getting specific producer (when sold out flag is false for current user)', async () => {
         Axios.get
             .mockReturnValueOnce(
                 Promise.resolve({
@@ -82,7 +82,7 @@ describe('Producers API Service', () => {
         });
     });
 
-    it('should provide method for getting specific producer (when soldout flag is true for current user)', async () => {
+    it('should provide method for getting specific producer (when sold out flag is true for current user)', async () => {
         Axios.get
             .mockReturnValueOnce(
                 Promise.resolve({
@@ -175,7 +175,7 @@ describe('Producers API Service', () => {
         expect(producerCall).toBe('/api/producers/TEST/get');
     });
 
-    it('should provide method for getting producers list (when soldout flag is false for current user)', async () => {
+    it('should provide method for getting producers list (when sold out flag is false for current user)', async () => {
         Axios.get
             .mockReturnValueOnce(
                 Promise.resolve({
@@ -257,7 +257,7 @@ describe('Producers API Service', () => {
         });
     });
 
-    it('should provide method for getting producers list (when soldout flag is true for current user)', async () => {
+    it('should provide method for getting producers list (when sold out flag is true for current user)', async () => {
         Axios.get
             .mockReturnValueOnce(
                 Promise.resolve({

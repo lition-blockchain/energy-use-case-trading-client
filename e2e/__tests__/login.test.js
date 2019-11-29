@@ -18,7 +18,7 @@ describe('Sign-in / login app processes', () => {
         'User can login and logout into the app',
         async () => {
             await loginPage.open();
-            overviewPage = await loginPage.login(credentials.username, credentials.password);
+            overviewPage = await loginpage.login(credentials.username, credentials.password);
             await overviewPage.open();
             await overviewPage.logout();
         },

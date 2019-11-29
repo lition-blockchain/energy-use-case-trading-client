@@ -82,16 +82,16 @@
     "app.footer.about": "About Us",
     "app.footer.termsAndConditions": "Terms & Conditions",
     "app.footer.faq": "FAQ",
-    "app.footer.address": "2018 Lition. All rights reserved.",
+    "app.footer.address": "2018. Nordic Energy. All rights reserved.",
 
     "app.navigationCardsPanel.myProducer": "My Producer",
     "app.navigationCardsPanel.buyEnergy": "Buy Energy",
     "app.navigationCardsPanel.sellEnergy": "Sell Energy",
 
     "app.overviewPage.contractWaitingStatusCode":
-        "Your contract with Lition was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the \"Documents\" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.",
+        "Your contract with Nordic Energy was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the \"Documents\" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.",
     "app.overviewPage.contractOthersStatusCodes":
-        "You are currently not supplied by Lition ({statusCodeTitle}). Feel free to contact us if you need more detail.",
+        "You are currently not supplied by Nordic Energy ({statusCodeTitle}). Feel free to contact us if you need more detail.",
     "app.recentTransactions.title": "Most Recent Transactions",
     "app.recentTransactions.emptyMessage": "No transaction information",
     "app.recentTransactions.headerDate": "Date",
@@ -107,7 +107,7 @@
     "app.recentTransactionsDescription.from": "from",
     "app.recentTransactionsDescription.bought": "Bought",
     "app.recentTransactions.loadingErrorMessage":
-        "Can't load transactions data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error.",
 
     "app.showTransactionsPage.header": "Show Transactions",
     "app.showTransactionsPage.sellCoinsButton": "Sell Coins",
@@ -145,10 +145,10 @@
     "app.directTrading.metaMask.errors.address": "Select one of address.",
     "app.directTrading.confirmationDialog.successMessage": "Transaction is pending. Transaction hash is",
     "app.directTrading.confirmationDialog.statusInfoMessage":
-        "User ledger address registration is in progress. Next step will be available after registration has succeeded.",
+        "User Ledger address registration is in progress. Next step will be available after registration has succeeded.",
     "app.directTrading.wrongNetworkNotificationMessage": "Wrong ledger network is chosen",
     "app.directTrading.errors.loadingErrorMessage":
-        "Can't load transactions or ledger network data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load transactions or ledger network data from Nordic Energy web server. Please contact administrator to resolve the error.",
     "app.directTrading.errors.performTxErrorMessage":
         "An error occurred while performing the transaction. Please contact administrator to resolve the error.",
 
@@ -157,9 +157,9 @@
     "app.buyEnergyPage.filterLabel": "Filter by",
     "app.buyEnergyPage.filterOptionAll": "All",
     "app.buyEnergyPage.tradeDirectlyOnMarketLink": "Trade directly on market",
-    "app.buyEnergyPage.litionEnergyExchangeLink": "Lition energy exchange",
+    "app.buyEnergyPage.litionEnergyExchangeLink": "Nordic Energy energy exchange",
     "app.buyEnergyPage.loadingErrorMessage":
-        "Can't load producers data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load producers data from Nordic Energy web server. Please contact administrator to resolve the error.",
 
     "app.producerPage.header": "My Producer",
     "app.producerPage.name": "Name",
@@ -172,7 +172,7 @@
     "app.producerPage.selectedSince": "Selected since",
     "app.producerPage.location": "Location",
     "app.producerPage.selectButton": "Select Producer",
-    "app.producerPage.switchBack": "Switch back to Lition Standard",
+    "app.producerPage.switchBack": "Switch back to Nordic Energy Standard",
     "app.producerPage.showButton": "Show producers",
     "app.producerPage.ethereumAddress": "Ethereum Address",
     "app.producerPage.soldOutHelpText": "You can't select producers with \"sold out\" status",
@@ -255,12 +255,12 @@
     "app.profilePage.labels.sepaApproval": "Issuing SEPA-Mandate",
     "app.profilePage.labels.sepaApprovalOption": "I agree to terms",
     "app.profilePage.labels.sepaApprovalHelp":
-        "The named account holder authorizes the Lition Energie GmbH to collect payments from his account by direct debit. At the same time, said account holder instructs its credit institution to redeem the direct debits drawn by the supplier into its account. Note: Within eight weeks, starting with the debit date, the reimbursement of the debited amount can be reclaimed. The conditions agreed with the bank apply.",
+        "The named account holder authorizes the Nordic Energy. Ltd to collect payments from his account by direct debit. At the same time, said account holder instructs its credit institution to redeem the direct debits drawn by the supplier into its account. Note: Within eight weeks, starting with the debit date, the reimbursement of the debited amount can be reclaimed. The conditions agreed with the bank apply.",
     "app.profilePage.labels.bitcoinMessage":
-        "Lition accepts your Monthly payments in Bitcoin. Whenever your monthly installment is due, we will send you a link with instructions how to pay your Energy in Bitcoin or Bitcoin Cash, using the then current Bitcoin-Euro Exchange rate.",
+        "Nordic Energy accepts your Monthly payments in Bitcoin. Whenever your monthly installment is due, we will send you a link with instructions how to pay your Energy in Bitcoin or Bitcoin Cash, using the then current Bitcoin-Euro Exchange rate.",
     "app.profilePage.errors.profileUpdatedErrorMessage": "An error occurred while updating profile data",
     "app.profilePage.errors.profileLoadingErrorMessage":
-        "Can't load profile data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load profile data from Nordic Energy web server. Please contact administrator to resolve the error.",
 
     "app.sellEnergyPage.pageTitle": "Sell Energy",
     "app.sellEnergyPage.offersSectionTitle": "My offers",
@@ -293,7 +293,7 @@
     "app.documentsPage.header": "My Documents",
     "app.documentsPage.noDocumentsMessage": "You have no documents.",
     "app.documentsPage.errors.loadingErrorMessage":
-        "Can't load documents from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load documents from Nordic Energy web server. Please contact administrator to resolve the error.",
 
     "app.submitMeterReadingsPage.header": "Submit Meter readings",
     "app.submitMeterReadingsPage.labels.meterReadingsField": "Meter readings",
@@ -310,7 +310,7 @@
     "app.submitMeterReadingsPage.errors.meterReadingNumber": "Meter readings is not a number",
     "app.submitMeterReadingsPage.errors.dateRequired": "Date is required",
     "app.submitMeterReadingsPage.errors.loadingErrorMessage":
-        "Can't load meter readings data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load meter readings data from Nordic Energy web server. Please contact administrator to resolve the error.",
     "app.submitMeterReadingsPage.errors.submitErrorMessage": "An error occurred while sending meter readings",
 
     "app.registrationPage.successfulRegistration": "Registration successful.",
@@ -369,7 +369,7 @@
     "app.registrationPage.helps.usage":
         "This is the value you just entered for the price calculation. Changing it means the price will change, too.",
     "app.registrationPage.fields.customerSpecification": "Relocate or Switch supplier",
-    "app.registrationPage.options.customerSpecification.0": "Switch to Lition",
+    "app.registrationPage.options.customerSpecification.0": "Switch to Nordic Energy",
     "app.registrationPage.options.customerSpecification.1": "Relocate",
     "app.registrationPage.fields.counterNumber": "Meter ID",
     "app.registrationPage.helps.counterNumber": "We need the Meter ID to switch your supplier.",
@@ -389,7 +389,7 @@
     "app.registrationPage.fields.birthday": "Date of birth",
     "app.registrationPage.fields.birthdayHelperText": "Editing format dd.mm.yyyy",
     "app.registrationPage.fields.phoneAreaCode": "Area code",
-    "app.registrationPage.fields.phone": "Telefone number",
+    "app.registrationPage.fields.phone": "Mobile number",
     "app.registrationPage.errors.emailRequired": "Enter email address.",
     "app.registrationPage.errors.emailType": "Email address is invalid.",
     "app.registrationPage.errors.birthdayRequired": "Enter date of birth.",
@@ -406,12 +406,12 @@
     "app.registrationPage.options.paymentMethod.0": "Direct debit",
     "app.registrationPage.options.paymentMethod.1": "Transfer",
     "app.registrationPage.fields.iban": "IBAN",
-    "app.registrationPage.helps.iban": "Our creditor ID is DE29ZZZ00002101922.",
+    "app.registrationPage.helps.iban": "Our creditor ID is FI37 1528 3500 1625 86.",
     "app.registrationPage.fields.alternativeAccountHolder": "Account holder",
     "app.registrationPage.fields.sepaApproval": "SEPA direct debit approval",
     "app.registrationPage.options.sepaApproval.0": "Approval",
     "app.registrationPage.helps.sepaApproval":
-        "The account holder named above grants Lition Energie GmbH the permission to withdraw amounts due by direct debits from the account. In addition, the account holder named above authorizes his or her bank to redeem the direct debits issued. Note: Direct debits can be revoked within eight weeks starting at the time of debit. The terms and conditions of the bank apply.",
+        "The account holder named above grants Nordic Energy the permission to withdraw amounts due by direct debits from the account. In addition, the account holder named above authorizes his or her bank to redeem the direct debits issued. Note: Direct debits can be revoked within eight weeks starting at the time of debit. The terms and conditions of the bank apply.",
     "app.registrationPage.errors.ibanRequired": "Enter IBAN.",
     "app.registrationPage.errors.ibanValidator": "IBAN is invalid.",
     "app.registrationPage.errors.sepaApprovalValidator": "Please accept the SEPA terms.",
@@ -434,7 +434,7 @@
     "app.registrationPage.termsAndConditionsForm.cancel": "Previous step",
     "app.registrationPage.fields.message": "Your message to us",
     "app.registrationPage.fields.agbApproval":
-        "Do you agree to <a href=\"https://www.lition.de/wp-content/uploads/2018/05/Lition-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Terms & Conditions</a>, <a href=\"https://www.lition.de/wp-content/uploads/2018/05/Widerrufsformular.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Revocation rights</a> und <a href=\"https://www.lition.de/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy statement</a>?",
+        "Do you agree to <a href=\"https://www.nordicenergy.co/wp-content/uploads/2018/05/Nordic_Energy-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Terms & Conditions</a>, <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/011.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Revocation rights</a> und <a href=\"https://www.nordicenergy.co/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy statement</a>?",
     "app.registrationPage.fields.enableNotifications":
         "May we contact you with respect to new developments, producs via email, telephone or by mail?",
     "app.registrationPage.errors.agbApprovalValidator": "Please accept the terms.",

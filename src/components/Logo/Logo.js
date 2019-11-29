@@ -11,7 +11,7 @@ const Logo = ({ size, className, ...other }) => {
     return (
         <picture>
             <source srcSet={logoWebp} type="image/webp" />
-            <img className={classes} src={logoPng} alt="Lition logo" width={174} height={36} {...other} />
+            <img className={classes} src={logoPng} alt="Nordic Energy logo" width={174} height={36} {...other} />
         </picture>
     );
 };

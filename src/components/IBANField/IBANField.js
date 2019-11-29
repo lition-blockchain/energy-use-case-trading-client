@@ -38,7 +38,7 @@ class IBANField extends Component {
                 <TextField
                     required={required}
                     label={label}
-                    helperText={helperText || 'e.g. DE89 3704 0044 0532 0130 00'}
+                    helperText={helperText || 'e.g. FI37 1528 3500 1625 86'}
                     name={name}
                     value={IBAN.printFormat(value, ' ')}
                     error={error}

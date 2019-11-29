@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import { getMeterReadingsHistory, getMeterNumber, submitMeterReading } from '../consumption';
+import { getMeterNumber, getMeterReadingsHistory, submitMeterReading } from '../consumption';
 
 const MOCK_METER_READINGS_HISTORY = {
     count: 4,
@@ -58,7 +58,7 @@ describe('Consumption API Service', () => {
 
     it('should provide method for submit meter readings', async () => {
         Axios.post.mockReturnValueOnce(Promise.resolve({ data: MOCK_READING_VALUE }));
-        const data = await submitMeterReading({ meterReadings: MOCK_READING_VALUE.readingValue, date: '2018-08-29' });
+        const data = await submitMeterReading({ meterReadings: MOCK_READING_VALUE.readingValue, date: '2019-08-29' });
 
         expect(data).toEqual({ data: MOCK_READING_VALUE });
     });

@@ -1,7 +1,7 @@
 ```jsx
-<div style={{ padding: 16, background: '#eef2f5' }}>
+<div style={{ padding: 16, background: '#48D376' }}>
     <Alert duration={0}>
-        You currently do are not supplied by Lition with Energy, further details are available in the “Documents”
+        You currently do are not supplied by Nordic Energy with Energy Trading, further details are available in the “Documents”
         section
         <strong>Error in LWP with supplier</strong>. Feel free to <a href="/">contact us</a> if you have further
         questions.

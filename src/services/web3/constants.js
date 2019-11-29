@@ -18,5 +18,5 @@ export const TIMEOUT_ERROR = {
 };
 
 export const NETWORK_ERROR = {
-    response: { data: new Error('Network with no Lition smart contracts') }
+    response: { data: new Error('Network with no Nordic Energy smart contracts') }
 };

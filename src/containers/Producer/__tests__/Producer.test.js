@@ -2,7 +2,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import faShoppingCart from '@fortawesome/fontawesome-free-solid/faShoppingCart';
 import ProducerContainer, { Producer } from '../Producer';
-import { ProducerInfo, Button, HelpIcon } from '../../../components';
+import { Button, HelpIcon, ProducerInfo } from '../../../components';
 import { mountWithIntl, shallowWithIntl } from '../../../services/intlTestHelper';
 import configureMockStore from 'redux-mock-store';
 import * as producersActions from '../../../action_performers/producers';
@@ -165,7 +165,7 @@ describe('<Producer /> Component', () => {
                 annualProduction: 3000,
                 capacity: 8,
                 energyType: 'Solar',
-                location: 'Lippendorf, Neukieritzsch',
+                location: 'Vaasa, Finland',
                 name: 'Peter Producer',
                 price: 2.4,
                 purchased: 1300,

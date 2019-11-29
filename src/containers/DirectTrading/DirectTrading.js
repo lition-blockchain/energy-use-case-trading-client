@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Validator from 'async-validator';
 
-import { MetaMaskAlert, ConfigurationForm, TradePositionsList, Confirm } from '../../components';
-import { META_MASK_DOWNLOAD_LINKS, META_MASK_LINK, BLOCKCHAIN_NETWORKS, TRADE_POSITIONS_LIMIT } from '../../constants';
+import { ConfigurationForm, Confirm, MetaMaskAlert, TradePositionsList } from '../../components';
+import { BLOCKCHAIN_NETWORKS, META_MASK_DOWNLOAD_LINKS, META_MASK_LINK, TRADE_POSITIONS_LIMIT } from '../../constants';
 import web3Service from '../../services/web3';
 import { DirectTrading as messages } from '../../services/translations/messages';
 import {
     performGetAvailableAddresses,
+    performGetLedgerNetworks,
     performGetOpenTradePositions,
     performPerformTransaction,
-    performGetLedgerNetworks,
     performRegisterLedgerAddress
 } from '../../action_performers/transactions';
 import { performSetupLoaderVisibility } from '../../action_performers/app';
@@ -34,7 +34,7 @@ const DEFAULT_FILTER = {
 };
 const BLOCKCHAIN_NETWORKS_OPTIONS = [
     { value: ethereumNetwork, label: 'Ethereum' },
-    { value: ledgerNetwork, label: 'Ledger', disabled: true }
+    { value: ledgerNetwork, label: 'PowerChain', disabled: true }
 ];
 
 const SUCCESS_LEDGER_STATUS = 'success';

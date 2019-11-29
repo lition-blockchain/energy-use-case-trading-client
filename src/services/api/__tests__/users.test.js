@@ -1,12 +1,12 @@
 import Axios from 'axios';
 import {
     create,
+    createResetPasswordToken,
+    getUserData,
     login,
     logout,
-    getUserData,
-    updateUserData,
     resetUserPassword,
-    createResetPasswordToken,
+    updateUserData,
     verifyResetPasswordToken
 } from '../users';
 import pick from 'lodash.pick';
@@ -16,7 +16,7 @@ const userMockResponse = {
     birthday: '1980-10-10',
     basePrice: 49.08,
     workingPrice: 24.19,
-    country: 'Germany',
+    country: 'Finland',
     lastBillAvailable: true,
     lastBillAmount: '35,60',
     lastBillDate: 'April',
@@ -38,7 +38,7 @@ const userMockResponse = {
         houseNumber: '351',
         postcode: '10629',
         city: 'Berlin',
-        email: 'archik@instinctools.ru'
+        email: 'infi@nordicenergy.io'
     },
     currentProducerId: 18,
     ledger: 'ethereumRopsten'
@@ -66,7 +66,7 @@ describe('Users API Service', () => {
     });
 
     it('should provide method for registration', () => {
-        const userData = { firstName: 'John', lastName: 'Doe', username: 'test', password: 'qwerty123' };
+        const userData = { firstName: 'John', lastName: 'Doe', username: 'test', password: 'test123' };
         create(userData);
 
         expect(Axios.post).toHaveBeenCalledWith('/api/user/create?lang=en', userData);
@@ -106,8 +106,8 @@ describe('Users API Service', () => {
             firstName: 'Hans',
             lastName: 'Wurst',
             birthday: 1530748800,
-            IBAN: 'DE00 0000 0000 0000 0000 00',
-            email: 'nachrichtentechnik.kiel@googlemail.com',
+            IBAN: 'FI00 0000 0000 0000 0000 00',
+            email: 'info@nordicenergy.io',
             street: 'Hoppenbrook',
             postcode: '24145',
             city: 'Kiel',

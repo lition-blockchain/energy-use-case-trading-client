@@ -3,7 +3,7 @@ import moment from 'moment';
 import { shallowWithIntl } from '../../../services/intlTestHelper';
 import { CONTRACT_STATUSES } from '../../../constants';
 import { BuyEnergy } from '../BuyEnergy';
-import { ProducerCardsPanel, BackLink, ProducersFilter } from '../../../components';
+import { BackLink, ProducerCardsPanel, ProducersFilter } from '../../../components';
 import * as producersActionPerformers from '../../../action_performers/producers';
 import * as notificationsActionPerformers from '../../../action_performers/notifications';
 import * as appActionPerformers from '../../../action_performers/app';
@@ -243,7 +243,7 @@ describe('<BuyEnergy /> container', () => {
         buyEnergy.setProps({ error: { message: 'TEST' } });
         expect(notificationsActionPerformers.performPushNotification).toHaveBeenCalledWith({
             message:
-                "Can't load producers data from Lition web server. Please contact administrator to resolve the error.",
+                "Can't load producers data from Nordic Energy web server. Please contact administrator to resolve the error.",
             type: 'error'
         });
     });

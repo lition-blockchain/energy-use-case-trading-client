@@ -297,7 +297,7 @@ describe('<DirectTrading /> Component', () => {
         const [[error]] = notificationActions.performPushNotification.mock.calls;
         expect(error).toEqual({
             message:
-                "Can't load transactions or ledger network data from Lition web server. Please contact administrator to resolve the error.",
+                "Can't load transactions or ledger network data from Nordic Energy web server. Please contact administrator to resolve the error.",
             type: 'error'
         });
     });
