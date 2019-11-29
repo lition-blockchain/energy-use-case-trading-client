@@ -2,8 +2,8 @@ import moment from 'moment/moment';
 import { DATE_FORMAT, DATETIME_FORMAT } from '../constants';
 
 export function formatFloat(number, options) {
-    // TODO uncomment in future, for current moment we use only DE format
-    const locale = /*document.documentElement.getAttribute('lang') ||*/ 'de-DE';
+    // TODO uncomment in future, for current moment we use only EN format
+    const locale = /*document.documentElement.getAttribute('lang') ||*/ 'en-EN';
     const defaultOptions = { maximumFractionDigits: 2 };
     return Number(number || '0').toLocaleString(locale, { ...defaultOptions, ...options });
 }

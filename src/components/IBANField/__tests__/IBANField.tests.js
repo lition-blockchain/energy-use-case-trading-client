@@ -26,17 +26,17 @@ describe('<IBANField /> component', () => {
 
     it('should renders with helper text', () => {
         const ibanField = renderComponent();
-        expect(ibanField.find('TextField').props().helperText).toBe('e.g. DE89 3704 0044 0532 0130 00');
+        expect(ibanField.find('TextField').props().helperText).toBe('e.g. FI37 1528 3500 1625 86');
     });
 
     it('should format value', () => {
         const ibanField = renderComponent();
         ibanField.setProps({ value: 'DE34200400612345533292' });
-        expect(ibanField.find('TextField').props().value).toBe('DE34 2004 0061 2345 5332 92');
+        expect(ibanField.find('TextField').props().value).toBe('FI37 1528 3500 1625 86');
 
-        ibanField.find('TextField').simulate('change', { target: { name: 'IBAN', value: 'DE34 ab04 0061 +-*&^' } });
-        expect(ibanField.find('TextField').props().value).toBe('DE34 AB04 0061');
-        expect(stubs.onChange).toHaveBeenCalledWith({ target: { name: 'IBAN', value: 'DE34AB040061' } });
+        ibanField.find('TextField').simulate('change', { target: { name: 'IBAN', value: 'FI34 1528 3500 +-*&^' } });
+        expect(ibanField.find('TextField').props().value).toBe('FI34 1528 3500');
+        expect(stubs.onChange).toHaveBeenCalledWith({ target: { name: 'IBAN', value: 'FI37 1528 3500 1625 86' } });
 
         ibanField.setProps({ value: null });
         expect(ibanField.find('TextField').props().value).toBe('');

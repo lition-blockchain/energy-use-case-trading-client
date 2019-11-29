@@ -13,10 +13,10 @@ pipelines:
           - mkdir build/docs
           - cp -r styleguide/* build/docs
           - git describe --abbrev=12 --always --dirty=+ >build/VERSION_GIT
-          - ssh ec2-user@fe.prod.lition.io "rm -rf /var/www/html_tmp/*"
-          - scp -r build/. ec2-user@fe.prod.lition.io:/var/www/html_tmp/
-          - ssh ec2-user@fe.prod.lition.io "rm -rf /var/www/html/*; cp -r /var/www/html_tmp/. /var/www/html/"
-          - ssh ec2-user@fe.prod.lition.io sudo systemctl reload httpd
+          - ssh ec2-user@fe.prod.nordicenergu.co "rm -rf /var/www/html_tmp/*"
+          - scp -r build/. ec2-user@fe.prod.nordicenergy.co:/var/www/html_tmp/
+          - ssh ec2-user@fe.prod.nordicenergy.co "rm -rf /var/www/html/*; cp -r /var/www/html_tmp/. /var/www/html/"
+          - ssh ec2-user@fe.prod.nordicenergy.co sudo systemctl reload httpd
     staging: # -- When committing to staging branch auto-deploy to staging environment
     - step:
         script:
@@ -28,14 +28,14 @@ pipelines:
           - mkdir build/docs
           - cp -r styleguide/* build/docs
           - git describe --abbrev=12 --always --dirty=+ >build/VERSION_GIT
-          - ssh ec2-user@fe.staging.lition.io "rm -rf /var/www/html_tmp/*"
-          - scp -r build/. ec2-user@fe.staging.lition.io:/var/www/html_tmp
-          - ssh ec2-user@fe.staging.lition.io "rm -rf /var/www/html/*; cp -r /var/www/html_tmp/. /var/www/html/"
-          - ssh ec2-user@fe.staging.lition.io sudo systemctl reload httpd
+          - ssh ec2-user@fe.staging.nordicenergy.co "rm -rf /var/www/html_tmp/*"
+          - scp -r build/. ec2-user@fe.staging.nprdicenergy.co:/var/www/html_tmp
+          - ssh ec2-user@fe.staging.nordicenergy.co "rm -rf /var/www/html/*; cp -r /var/www/html_tmp/. /var/www/html/"
+          - ssh ec2-user@fe.staging.nordicenergy.co sudo systemctl reload httpd
   custom: # Pipelines that are triggered manually
     test_ssh:
     - step:
         name: ssh access to prod/staging test
         script:
-          - ssh ec2-user@fe.prod.lition.io -x "exit"
-          - ssh ec2-user@fe.staging.lition.io -x "exit"
+          - ssh ec2-user@fe.prod.nordicenergy.co -x "exit"
+          - ssh ec2-user@fe.staging.nordicenergy.co -x "exit"

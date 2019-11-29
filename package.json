@@ -1,6 +1,6 @@
 {
-    "name": "lition-client",
-    "version": "0.1.0",
+    "name": "nordic_energy-client",
+    "version": "0.1.1",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome": "1.1.5",
@@ -71,10 +71,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/lition-blockchain/energy-use-case-trading-client"
+        "url": "https://github.com/nordicenergy/energy-energy-trading-client-UI"
     },
     "keywords": [
-        "lition",
+        "nordic",
         "energy",
         "exchange",
         "blockchain",
@@ -82,7 +82,7 @@
         "client side",
         "front-end"
     ],
-    "author": "Lition Tech Team",
+    "author": "Nordic Energy Development Team",
     "license": "CC BY-NC-ND 4.0",
     "engines": {
         "node": ">=6.6.0",
@@ -100,7 +100,7 @@
     },
     "proxy": {
         "/api": {
-            "target": "http://fe.staging.lition.io",
+            "target": "https://fe.staging.nordicenergy.co",
             "changeOrigin": true
         }
     }

@@ -130,7 +130,7 @@ export const META_MASK_DOWNLOAD_LINKS = {
     brave: 'https://brave.com'
 };
 
-export const BLOCKCHAIN_NETWORKS = ['ethereum', 'ledger'];
+export const BLOCKCHAIN_NETWORKS = ['ethereum', 'powerchain', 'ledger'];
 
 export const BLOCKCHAIN_SCANNER_URLS = {
     main: 'https://etherscan.io',

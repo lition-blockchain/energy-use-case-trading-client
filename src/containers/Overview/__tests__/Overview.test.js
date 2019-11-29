@@ -347,9 +347,9 @@ describe('<Overview /> Component', () => {
             currentBalance: { ...props.recentTransactions.currentBalance },
             labels: {
                 contractWaitingStatusCode:
-                    'Your contract with Lition was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.',
+                    'Your contract with Nordic Energy was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.',
                 contractOthersStatusCodes:
-                    'You are currently not supplied by Lition (Active). Feel free to contact us if you need more detail.',
+                    'You are currently not supplied by Nordic Enetgy (Active). Feel free to contact us if you need more detail.',
                 recentTransactionsEmptyMessage: 'No transaction information',
                 buyEnergy: 'Buy Energy',
                 myProducer: 'My Producer',
@@ -386,7 +386,7 @@ describe('<Overview /> Component', () => {
                 contractWaitingStatusCode:
                     'Your contract with Lition was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.',
                 contractOthersStatusCodes:
-                    'You are currently not supplied by Lition (Active). Feel free to contact us if you need more detail.',
+                    'You are currently not supplied by Nordic Energy (Active). Feel free to contact us if you need more detail.',
                 recentTransactionsEmptyMessage: 'No transaction information',
                 buyEnergy: 'Buy Energy',
                 myProducer: 'My Producer',
@@ -405,7 +405,7 @@ describe('<Overview /> Component', () => {
                 recentTransactionsDescriptionFrom: 'from',
                 sellEnergy: 'Sell Energy',
                 loadingErrorMessage:
-                    "Can't load transactions data from Lition web server. Please contact administrator to resolve the error."
+                    "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error."
             },
             navigationCards: [
                 { disabled: false, path: '/my_producer', title: 'My Producer', type: 'my_producer' },
@@ -450,7 +450,7 @@ describe('<Overview /> Component', () => {
 
         expect(component.find('Alert')).toHaveLength(1);
         expect(component.find('Alert').props().children).toBe(
-            'Your contract with Lition was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.'
+            'Your contract with Nordic Energy was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.'
         );
         expect(component.find('EmptyRecentTransactions')).toHaveLength(1);
     });
@@ -464,7 +464,7 @@ describe('<Overview /> Component', () => {
 
         expect(component.find('Alert')).toHaveLength(1);
         expect(component.find('Alert').props().children).toBe(
-            'You are currently not supplied by Lition (Start of delivery sent). Feel free to contact us if you need more detail.'
+            'You are currently not supplied by Nordic Energy (Start of delivery sent). Feel free to contact us if you need more detail.'
         );
         expect(component.find('EmptyRecentTransactions')).toHaveLength(1);
     });
@@ -522,7 +522,7 @@ describe('<Overview /> Component', () => {
         const [[error]] = notificationActions.performPushNotification.mock.calls;
         expect(error).toEqual({
             message:
-                "Can't load transactions data from Lition web server. Please contact administrator to resolve the error.",
+                "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error.",
             type: 'error'
         });
     });
