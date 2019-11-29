@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run" type="js.build_tools.npm" nameIsGenerated="true">
+    <package-json value="$PROJECT_DIR$" />
+    <command value="run" />
+    <scripts />
+    <node-interpreter value="$USER_HOME$/energy-trading-platform-client-UI/package.json" />
+    <package-manager value="npm" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
