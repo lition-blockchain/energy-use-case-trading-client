@@ -7,7 +7,7 @@ const labelsDummy = {
     blockChainField: 'Blockchain',
     addressField: 'Contract Address',
     button: 'Add Contract Address',
-    helperText: 'Assign contract address to your Lition account'
+    helperText: 'Assign contract address to your Nordic Energy account'
 };
 function renderComponent({ labels = labelsDummy, ...otherProps } = {}, mountFn = shallow) {
     return mountFn(<ConfigurationForm labels={labels} {...otherProps} />);

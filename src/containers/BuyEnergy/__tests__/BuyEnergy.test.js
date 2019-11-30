@@ -10,9 +10,9 @@ import * as appActionPerformers from '../../../action_performers/app';
 
 const userDummy = {
     id: 42,
-    firstName: 'Bruce',
-    lastName: 'Wayne',
-    email: 'batman@example.com',
+    firstName: 'Nordic',
+    lastName: 'Energy',
+    email: 'info@nordicenergy.io',
     street: 'justice-league',
     streetNumber: '5',
     postcode: '10115',

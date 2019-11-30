@@ -1,8 +1,8 @@
 import React from 'react';
 import { SubmitMeter } from '../SubmitMeter';
 
-import { shallowWithIntl, mountWithIntl } from '../../../services/intlTestHelper';
-import { MeterReadingsHistory, MeterReadingForm } from '../../../components';
+import { mountWithIntl, shallowWithIntl } from '../../../services/intlTestHelper';
+import { MeterReadingForm, MeterReadingsHistory } from '../../../components';
 import * as consumptionActions from '../../../action_performers/consumption';
 import * as notificationsActionPerformers from '../../../action_performers/notifications';
 import * as appActions from '../../../action_performers/app';
@@ -114,7 +114,7 @@ describe('<SubmitMeter /> Component', () => {
             dateRequired: 'Date is required',
             header: 'Submit Meter readings',
             historyCaption: 'History',
-            loadingErrorMessage: `Can't load meter readings data from Lition web server. Please contact administrator to resolve the error.`,
+            loadingErrorMessage: `Can't load meter readings data from Nordic Energy web server. Please contact administrator to resolve the error.`,
             meterNumberTitle: 'Number of meter',
             incorrectMeterNumber: 'Number of meter is still not defined.',
             incorrectContractStatus: 'Submission of meter readings will be enabled with the start of delivery.',
@@ -146,7 +146,7 @@ describe('<SubmitMeter /> Component', () => {
             dateRequired: 'Date is required',
             header: 'Submit Meter readings',
             historyCaption: 'History',
-            loadingErrorMessage: `Can't load meter readings data from Lition web server. Please contact administrator to resolve the error.`,
+            loadingErrorMessage: `Can't load meter readings data from Nordic Energy web server. Please contact administrator to resolve the error.`,
             meterNumberTitle: 'Number of meter',
             incorrectMeterNumber: 'Number of meter is still not defined.',
             incorrectContractStatus: 'Submission of meter readings will be enabled with the start of delivery.',
@@ -292,7 +292,7 @@ describe('<SubmitMeter /> Component', () => {
         expect(notificationsActionPerformers.performPushNotification).toHaveBeenCalledWith({
             type: 'error',
             message:
-                "Can't load meter readings data from Lition web server. Please contact administrator to resolve the error."
+                "Can't load meter readings data from Nordic Energy web server. Please contact administrator to resolve the error."
         });
 
         notificationsActionPerformers.performPushNotification.mockRestore();

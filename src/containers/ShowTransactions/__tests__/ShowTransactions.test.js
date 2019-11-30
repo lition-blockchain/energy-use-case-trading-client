@@ -2,7 +2,7 @@ import React from 'react';
 import { faHome } from '@fortawesome/fontawesome-free-solid';
 import { Provider } from 'react-redux';
 import ShowTransactionsContainer, { ShowTransactions } from '../ShowTransactions';
-import { BackLink, Loader, RecentTransactions } from '../../../components';
+import { BackLink, RecentTransactions } from '../../../components';
 import { mountWithIntl, shallowWithIntl } from '../../../services/intlTestHelper';
 import { formatFloat } from '../../../services/formatter';
 import configureMockStore from 'redux-mock-store';
@@ -400,7 +400,7 @@ describe('<ShowTransactions /> Component', () => {
                 recentTransactionsDescriptionFrom: 'from',
                 sellCoinsButton: 'Sell Coins',
                 loadingErrorMessage:
-                    "Can't load transactions data from Lition web server. Please contact administrator to resolve the error."
+                    "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error."
             },
             loading: false,
             pagination: true,
@@ -481,7 +481,7 @@ describe('<ShowTransactions /> Component', () => {
         const [[error]] = notificationActions.performPushNotification.mock.calls;
         expect(error).toEqual({
             message:
-                "Can't load transactions data from Lition web server. Please contact administrator to resolve the error.",
+                "Can't load transactions data from Nordic energy web server. Please contact administrator to resolve the error.",
             type: 'error'
         });
     });

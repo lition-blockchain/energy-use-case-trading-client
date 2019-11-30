@@ -143,7 +143,7 @@ const messages = defineMessages({
     },
     status9000: {
         id: 'app.statuses.status9000',
-        defaultMessage: 'Done'
+        defaultMessage: 'Message'
     }
 });
 

@@ -1,7 +1,7 @@
-import { getToken, clearToken, setToken } from '../browserStorage';
+import { clearToken, getToken, setToken } from '../browserStorage';
 
 describe('Browser Storage Service', () => {
-    const expectedKey = 'lition_auth_token';
+    const expectedKey = 'nordicenergy_auth_token';
 
     beforeEach(() => {
         sessionStorage.getItem = jest.fn();

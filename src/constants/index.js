@@ -116,10 +116,10 @@ export const DATE_FORMAT = 'MMM DD, YYYY';
 export const MONTH_DAY_DATE_FORMAT = 'MMM DD';
 export const DATETIME_FORMAT = 'MMM DD, YYYY hh:mm';
 
-export const LOCALES = ['fi', 'fi'];
+export const LOCALES = ['en', 'de'];
 export const [, DEFAULT_LOCALE] = LOCALES;
 
-export const NORDIC_ENERGY_POWERER_PLANT_ID = 1;
+export const NORDIC_ENERGY_POWERPLANT_ID = 1;
 
 export const META_MASK_LINK = 'https://metamask.io';
 

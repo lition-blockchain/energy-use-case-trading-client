@@ -21,14 +21,14 @@ const messages = defineMessages({
         id: 'app.buyEnergyPage.tradeDirectlyOnMarketLink',
         defaultMessage: 'Trade directly on market'
     },
-    litionEnergyExchangeLink: {
-        id: 'app.buyEnergyPage.litionEnergyExchangeLink',
-        defaultMessage: 'Lition energy exchange'
+    nordicenergyEnergyExchangeLink: {
+        id: 'app.buyEnergyPage.nordicEnergyExchangeLink',
+        defaultMessage: 'Nordic Energy energy exchange'
     },
     loadingErrorMessage: {
         id: 'app.buyEnergyPage.loadingErrorMessage',
         defaultMessage:
-            "Can't load producers data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load producers data from Nordic Energy web server. Please contact administrator to resolve the error."
     }
 });
 

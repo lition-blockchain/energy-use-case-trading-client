@@ -43,7 +43,7 @@ const messages = defineMessages({
     },
     metaMaskConfigurationFormHelperText: {
         id: 'app.directTrading.metaMask.configurationForm.helperText',
-        defaultMessage: 'Assign contract address to your Lition account'
+        defaultMessage: 'Assign contract address to your Nordic Energy account'
     },
     metaMaskTradePositionsTitle: {
         id: 'app.directTrading.metaMask.tradePositions.title',
@@ -89,7 +89,7 @@ const messages = defineMessages({
     loadingErrorMessage: {
         id: 'app.directTrading.errors.loadingErrorMessage',
         defaultMessage:
-            "Can't load transactions or ledger network data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load transactions or ledger network data from Nordic Energy web server. Please contact administrator to resolve the error."
     },
     performTxErrorMessage: {
         id: 'app.directTrading.errors.performTxErrorMessage',

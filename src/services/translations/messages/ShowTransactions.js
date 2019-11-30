@@ -68,7 +68,7 @@ const messages = defineMessages({
     loadingErrorMessage: {
         id: 'app.recentTransactions.loadingErrorMessage',
         defaultMessage:
-            "Can't load transactions data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error."
     }
 });
 

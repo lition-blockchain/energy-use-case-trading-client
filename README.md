@@ -6,24 +6,24 @@
    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br />
    <a href="https://codecov.io/gh/archik408/trading-platform-client"><img src="https://codecov.io/gh/archik408/trading-platform-client/branch/master/graph/badge.svg" alt="Codecov Badge"></a>
    <a href="https://codecov.io/gh/archik408/trading-platform-client"><img src="https://img.shields.io/badge/coverage-98-green.svg" alt="Test Coverage Badge"></a>
-   <a href="https://bitbucket.org/lition/frontend/addon/pipelines/home#!/results/411"><img src="https://img.shields.io/badge/build-success-lightgreen.svg" alt="Test Coverage Badge"></a>
+   <a href="https://bitbucket.org/nordicenergy/frontend/addon/pipelines/home#!/results/411"><img src="https://img.shields.io/badge/build-success-lightgreen.svg" alt="Test Coverage Badge"></a>
 </p>
 <p align="left">
-    <a href="https://twitter.com/intent/follow?screen_name=Lition_Block"><img src="https://img.shields.io/twitter/follow/Lition_Block.svg?style=social&label=Follow%20@Lition_Block" alt="Follow on Twitter"></a>  
+    <a href="https://twitter.com/intent/follow?screen_name=nordic_energy"><img src="https://img.shields.io/twitter/follow/Nordic_Energy.svg?style=social&label=Follow%20@Nordic_Energy" alt="Follow on Twitter"></a>  
 </p>
 
 ## Introduction
-[Lition](https://www.lition.io) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Lition's live P2P trading use case, and co-innovated with SAP.
+[Nordic Energy](https://www.nordicenergy.co) is developing the only scalable public-private blockchain with deletable data features, made for commercial products. Designed with Nordic Energy's P2P energy trading use case, and co-innovated with SAP.
 
-This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.lition.de with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
+This repository shows the frontend for the energy use case, which is the world's first peer to peer energy trading plattform commercially available to a mass market. You can test it at https://demo.nordicenergy.co with the credentials demo / demo1234. The Frontend part of its trading platform is built with modern JavaScript, HTML and CSS, but there are some helpers: [React](https://reactjs.org/) as a framework, [Jest](https://jestjs.io/en/) as a testing tool and [Styleguidist](https://react-styleguidist.js.org/) as a source of documentation.
 
-There are several articles written by Lition Tech-Lead which describe the chosen approaches of development in full. Links to them can be found below:
+There are several articles written by Nordic Energy Developers which describe the chosen approaches of development in full. Links to them can be found below:
 
-1. [React architecture and approach](https://medium.com/lition-blog/lition-and-react-js-devblog-90843c9f1d10)
-2. [Layout](https://medium.com/lition-blog/layout-of-trading-platform-devblog-aab5a61bdbf3)
+1. [React architecture and approach](https://medium.com/lnordicenergy-blog/powerchain-and-react-js-devblog-90843c9f1d10)
+2. [Layout](https://medium.com/nordicenergy-blog/layout-of-trading-platform-devblog-aab5a61bdbf3)
 3. [Testing](https://medium.com/lition-blog/tests-docs-for-lition-front-end-devblog-242b33a69df5)
   
-Besides, Lition has its own UI-kit which is currently under development, but it is also based on React and Styleguidist.
+Besides, Nordic Energy has its own UI-kit which is currently under development, but it is also based on React and Styleguidist.
 
 
 ## Installation and start

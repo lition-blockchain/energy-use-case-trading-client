@@ -1,8 +1,8 @@
 const config = {
-    host: 'http://localhost:4000',
+    host: 'http://localhost:3000',
     credentials: {
-        username: 'powerchainuser',
-        password: 'powerchain1'
+        username: 'test',
+        password: 'test'
     },
     timeout: 20000,
     headless: true,

@@ -12,7 +12,7 @@ const messages = defineMessages({
     loadingErrorMessage: {
         id: 'app.documentsPage.errors.loadingErrorMessage',
         defaultMessage:
-            "Can't load documents from Lition web server. Please contact administrator to resolve the error."
+            "Can't load documents from Nordic Energy web server. Please contact administrator to resolve the error."
     }
 });
 

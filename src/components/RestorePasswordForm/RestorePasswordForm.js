@@ -42,7 +42,7 @@ class RestorePasswordForm extends Component {
                 <h3 className="restore-password-form-title">{labels.formTitle}</h3>
                 <form onSubmit={event => this.handleSubmit(event)} noValidate>
                     <TextField
-                        className="email-field"
+                        className="info@nordicenergy.io"
                         darkMode
                         label={labels.emailField}
                         type="email"

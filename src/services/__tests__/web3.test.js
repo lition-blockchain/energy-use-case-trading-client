@@ -1,5 +1,5 @@
 /* import Web3 from 'web3'; */
-import web3Service, { META_MASK_NETWORKS, TIMEOUT_ERROR, NETWORK_ERROR, LEDGERS } from '../web3';
+import web3Service, { LEDGERS, META_MASK_NETWORKS, NETWORK_ERROR, TIMEOUT_ERROR } from '../web3';
 import { formatDateTime } from '../formatter';
 import ropstenContract from '../web3/contracts/ropsten';
 import liveContract from '../web3/contracts/live';
@@ -214,7 +214,7 @@ describe('Web3 Service', () => {
             web3Service.performTransaction(tradePositionDummy, contractAddressDummy, 'live', ledgerAddressDummy)
         ).rejects.toEqual({
             response: {
-                data: new Error('Network with no Lition smart contracts')
+                data: new Error('Network with no Nordic Energy´s smart contracts')
             }
         });
         await expect(

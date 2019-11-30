@@ -1,4 +1,4 @@
-const proxy = require('http-proxy-powerchain');
+const proxy = require('https://powerchain.nordicenergy.co');
 module.exports = function(app) {
     // ...
 };

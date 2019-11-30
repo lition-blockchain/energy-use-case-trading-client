@@ -43,7 +43,7 @@ const messages = defineMessages({
     },
     address: {
         id: 'app.footer.address',
-        defaultMessage: '2018 Lition. All rights reserved.'
+        defaultMessage: '2019. Nordic Energy. All rights reserved.'
     },
     logoutConfirm: {
         id: 'app.header.logoutConfirm',

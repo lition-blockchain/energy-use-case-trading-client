@@ -90,7 +90,7 @@
     "app.footer.termsAndConditions": "AGB",
     "app.footer.service": "Fragen & Service",
     "app.footer.faq": "FAQ",
-    "app.footer.address": "2018 Lition. Alle Rechte vorbehalten.",
+    "app.footer.address": "2019. Nordic Energy. Alle Rechte vorbehalten.",
 
     "app.navigationCardsPanel.myProducer": "Mein Erzeuger",
     "app.navigationCardsPanel.buyEnergy": "Energie kaufen",
@@ -99,7 +99,7 @@
     "app.overviewPage.contractWaitingStatusCode":
         "Dein Vertrag ist erfolgreich abgeschlossen worden. Ab deinem Wechseltermin, den du im Bereich \"Dokumente\" entnehmen kannst, beliefern wir dich mit Energie. Dann kannst Du dich auch für einen Erzeuger deiner Wahl entscheiden.",
     "app.overviewPage.contractOthersStatusCodes":
-        "Du erhältst derzeit keinen Strom von Lition ({statusCodeTitle}). Solltest du weitere Details benötigen, kannst du dich gern an uns wenden.",
+        "Du erhältst derzeit keinen Strom von Nordic Energy ({statusCodeTitle}). Solltest du weitere Details benötigen, kannst du dich gern an uns wenden.",
     "app.recentTransactions.title": "Aktuelle Transaktionen",
     "app.recentTransactions.emptyMessage": "No transaction information",
     "app.recentTransactions.headerDate": "Datum",
@@ -116,7 +116,7 @@
     "app.recentTransactionsDescription.from": "von",
     "app.recentTransactionsDescription.bought": "Gekauft:",
     "app.recentTransactions.loadingErrorMessage":
-        "Transaktionsdaten können nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Transaktionsdaten können nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
 
     "app.showTransactionsPage.header": "Transaktionen anzeigen",
     "app.showTransactionsPage.sellCoinsButton": "kWh verkaufen",
@@ -144,7 +144,7 @@
     "app.directTrading.metaMask.configurationForm.addressField": "Benutzer-Ethereum-Adresse",
     "app.directTrading.metaMask.configurationForm.addressPlaceholder": "Benutzer-Ethereum-Adresse auswählen",
     "app.directTrading.metaMask.configurationForm.button": "Benutzer-Ethereum-Adresse zufügen",
-    "app.directTrading.metaMask.configurationForm.helperText": "Vertragsadresse zum Lition-Account zufügen",
+    "app.directTrading.metaMask.configurationForm.helperText": "Vertragsadresse zum Nordic Energy-Account zufügen",
     "app.directTrading.metaMask.tradePositions.title": "Handelspositionen öffnen",
     "app.directTrading.metaMask.tradePositions.tradeVolumeField": "Handelsmenge",
     "app.directTrading.metaMask.tradePositions.filterByDateField": "Filter nach Datum",
@@ -157,7 +157,7 @@
         "Registrierung der Benutzer-Ledger-Adresse ist in Arbeit. Der nächste Schritt wird verfügbar wenn die Registrierung abgeschlossen wurde.",
     "app.directTrading.wrongNetworkNotificationMessage": "Falsches Ledger-Netzwerk",
     "app.directTrading.errors.loadingErrorMessage":
-        "Transaktionen oder Ledger-Netzwerk konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Transaktionen oder Ledger-Netzwerk konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
     "app.directTrading.errors.performTxErrorMessage":
         "Während der Transaktion ist ein Fehler aufgetreten. Bitte kontaktiere den Kundendienst.",
 
@@ -166,9 +166,9 @@
     "app.buyEnergyPage.filterLabel": "Filtern nach",
     "app.buyEnergyPage.filterOptionAll": "alle",
     "app.buyEnergyPage.tradeDirectlyOnMarketLink": "Dein Marktzugang",
-    "app.buyEnergyPage.litionEnergyExchangeLink": "Lition Energiebörse",
+    "app.buyEnergyPage.nordicenergyEnergyExchangeLink": "Nordic Energy Energiebörse",
     "app.buyEnergyPage.loadingErrorMessage":
-        "Erzeugerdaten konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Erzeugerdaten konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
 
     "app.producerPage.header": "Mein aktueller Erzeuger",
     "app.producerPage.name": "Name",
@@ -181,12 +181,12 @@
     "app.producerPage.selectedSince": "ausgewählt seit",
     "app.producerPage.location": "Ort",
     "app.producerPage.selectButton": "Kraftwerk auswählen",
-    "app.producerPage.switchBack": "Zurück zum Lition Standardtarif",
+    "app.producerPage.switchBack": "Zurück zum Nordic Energy Standardtarif",
     "app.producerPage.showButton": "Alle Kraftwerke",
     "app.producerPage.ethereumAddress": "Ethereum Adresse",
     "app.producerPage.soldOutHelpText": "Ausverkauftes Kraftwerk kann nicht ausgewählt werden.",
     "app.producerPage.errors.loadingErrorMessage":
-        "Erzeugerdaten konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Erzeugerdaten konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
     "app.producerPage.errors.selectErrorMessage":
         "Erzeuger konnte nicht ausgewählt werden. Bitte kontaktiere den Kundendienst.",
     "app.producerPage.notifications.selectMessage":
@@ -260,12 +260,12 @@
     "app.profilePage.labels.sepaApproval": "Erteilung SEPA-Mandat",
     "app.profilePage.labels.sepaApprovalOption": "Zustimmung",
     "app.profilePage.labels.sepaApprovalHelp":
-        "Der genannte Kontoinhaber ermächtigt die Lition Energie GmbH, Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.",
+        "Der genannte Kontoinhaber ermächtigt die Nordic Energy. Ltd. Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.",
     "app.profilePage.labels.bitcoinMessage":
-        "Mit Lition kannst du deine Stromrechnung in Bitcoin oder Bitcoin Cash bezahlen. Sobald dein monatlicher Abschlag ansteht erhältst du von uns eine E-Mail mit den Zahlungsdetails zum jeweils dann gültigen Bitcoin-Euro Kurs.",
+        "Mit Nordic Energy kannst du deine Stromrechnung in Bitcoin oder Bitcoin Cash bezahlen. Sobald dein monatlicher Abschlag ansteht erhältst du von uns eine E-Mail mit den Zahlungsdetails zum jeweils dann gültigen Bitcoin-Euro Kurs.",
     "app.profilePage.errors.profileUpdatedErrorMessage": "Beim Aktualisieren deines Profils ist ein Fehler aufgetreten",
     "app.profilePage.errors.profileLoadingErrorMessage":
-        "Profildaten konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Profildaten konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
 
     "app.sellEnergyPage.pageTitle": "Energie verkaufen",
     "app.sellEnergyPage.offersSectionTitle": "Meine Angebote",
@@ -298,7 +298,7 @@
     "app.documentsPage.header": "Meine Dokumente",
     "app.documentsPage.noDocumentsMessage": "Du hast noch keine Dokumente.",
     "app.documentsPage.errors.loadingErrorMessage":
-        "Die Dokumente konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Die Dokumente konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
 
     "app.submitMeterReadingsPage.header": "Zählerstände eintragen",
     "app.submitMeterReadingsPage.labels.meterReadingsField": "Zählerstände",
@@ -315,12 +315,12 @@
     "app.submitMeterReadingsPage.errors.meterReadingNumber": "Zählerstand ist keine Zahl",
     "app.submitMeterReadingsPage.errors.dateRequired": "Datum erforderlich",
     "app.submitMeterReadingsPage.errors.loadingErrorMessage":
-        "Zählerstände konnten nicht vom Lition-Server geladen werden. Bitte kontaktiere den Kundendienst.",
+        "Zählerstände konnten nicht vom Nordic Energy-Server geladen werden. Bitte kontaktiere den Kundendienst.",
     "app.submitMeterReadingsPage.errors.submitErrorMessage":
         "Beim Speichern der Zählerstände ist ein Fehler aufgetreten",
 
     "app.registrationPage.successfulRegistration": "Registration erfolgreich abgeschlossen.",
-    "app.registrationPage.copyright": "Lition Energie GmbH. Alle Rechte vorbehalten.",
+    "app.registrationPage.copyright": "Nordic Energy. Alle Rechte vorbehalten.",
     "app.registrationPage.firstStepTitle": "Lieferadresse",
     "app.registrationPage.secondStepTitle": "Lieferbeginn",
     "app.registrationPage.thirdStepTitle": "Weitere Angaben",
@@ -375,7 +375,7 @@
     "app.registrationPage.helps.usage":
         "Dies ist der Wert den Du eben bei der Preisberechnung eingegeben hast. Wenn Du ihn jetzt änderst, verändert sich auch dein Preis.",
     "app.registrationPage.fields.customerSpecification": "Umzug oder Lieferantenwechsel",
-    "app.registrationPage.options.customerSpecification.0": "Wechsel zu Lition",
+    "app.registrationPage.options.customerSpecification.0": "Wechsel zu Nordic Energy",
     "app.registrationPage.options.customerSpecification.1": "Umzug",
     "app.registrationPage.fields.counterNumber": "Zählernummer",
     "app.registrationPage.helps.counterNumber": "Die Zählernummer brauchen wir zur Ummeldung deines Stromanschlusses.",
@@ -417,7 +417,7 @@
     "app.registrationPage.fields.sepaApproval": "Erteilung SEPA-Mandat",
     "app.registrationPage.options.sepaApproval.0": "Zustimmung",
     "app.registrationPage.helps.sepaApproval":
-        "Der genannte Kontoinhaber ermächtigt die Lition Energie GmbH, Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.",
+        "Der genannte Kontoinhaber ermächtigt die Nordic Energy. Ltd. Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.",
     "app.registrationPage.errors.ibanRequired": "IBAN eingeben.",
     "app.registrationPage.errors.ibanValidator": "IBAN ungültig.",
     "app.registrationPage.errors.sepaApprovalValidator": "Bitte der SEPA-Einzugsermächtigung zustimmen.",
@@ -440,7 +440,7 @@
     "app.registrationPage.termsAndConditionsForm.cancel": "Vorheriger Schritt",
     "app.registrationPage.fields.message": "Nachricht an uns",
     "app.registrationPage.fields.agbApproval":
-        "Mit <a href=\"https://www.lition.de/wp-content/uploads/2018/05/Lition-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">AGBs</a>, <a href=\"https://www.lition.de/wp-content/uploads/2018/05/Widerrufsformular.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Widerruf</a> und <a href=\"https://www.lition.de/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung</a> einverstanden?",
+        "Mit <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/05/nordicenergy-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">AGBs</a>, <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/05/Widerrufsformular.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Widerruf</a> und <a href=\"https://www.nordicenergy.co/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Datenschutzerklärung</a> einverstanden?",
     "app.registrationPage.fields.enableNotifications":
         "Dürfen wir Dich über die neuen Entwicklungen und Produkte unserer Firma per E-Mail, per Telefon oder per Post, informieren?",
     "app.registrationPage.errors.agbApprovalValidator": "Bitte den AGB zustimmen.",

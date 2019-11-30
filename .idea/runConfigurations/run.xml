@@ -3,8 +3,8 @@
     <package-json value="$PROJECT_DIR$" />
     <command value="run" />
     <scripts />
-    <node-interpreter value="$USER_HOME$/energy-trading-platform-client-UI/package.json" />
-    <package-manager value="npm" />
+    <node-interpreter value="/usr/local/Cellar/node/13.2.0/bin/node" />
+    <package-manager value="/usr/local/Cellar/yarn/1.19.1/libexec" />
     <envs />
     <method v="2" />
   </configuration>

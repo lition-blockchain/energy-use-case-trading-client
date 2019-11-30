@@ -38,7 +38,7 @@ const userMockResponse = {
         houseNumber: '351',
         postcode: '10629',
         city: 'Berlin',
-        email: 'infi@nordicenergy.io'
+        email: 'info@nordicenergy.io'
     },
     currentProducerId: 18,
     ledger: 'ethereumRopsten'

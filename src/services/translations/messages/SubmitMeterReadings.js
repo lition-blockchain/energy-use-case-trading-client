@@ -56,7 +56,7 @@ const messages = defineMessages({
     loadingErrorMessage: {
         id: 'app.submitMeterReadingsPage.errors.loadingErrorMessage',
         defaultMessage:
-            "Can't load meter readings data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load meter readings data from Nordic Energy web server. Please contact administrator to resolve the error."
     },
     submitErrorMessage: {
         id: 'app.submitMeterReadingsPage.errors.submitErrorMessage',

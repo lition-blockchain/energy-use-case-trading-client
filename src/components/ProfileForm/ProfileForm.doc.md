@@ -1,6 +1,6 @@
 ```jsx
 const profile = {
-    email: 'aquaman@example.com',
+    email: 'info@nordicenergy.io',
     firstName: 'Arthur',
     lastName: 'Curry',
     country: 'Germany',

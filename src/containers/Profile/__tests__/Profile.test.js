@@ -100,7 +100,7 @@ describe('<Profile /> Container', () => {
         expect(component.state().errors).not.toHaveProperty('newPassword');
         expect(component.state().errors).not.toHaveProperty('oldPassword');
 
-        dataMock.email = 'test@test.com';
+        dataMock.email = 'info@nordicenergy.io';
         dataMock.oldPassword = '';
         component
             .find('ProfileForm')
@@ -109,7 +109,7 @@ describe('<Profile /> Container', () => {
 
         expect(component.state().errors).toHaveProperty('oldPassword');
 
-        dataMock.email = 'test@test.com';
+        dataMock.email = 'info@nordicenergy.io';
         dataMock.oldPassword = 'ss';
         dataMock.newPassword = '';
         dataMock.confirmNewPassword = 'ss';
@@ -143,13 +143,13 @@ describe('<Profile /> Container', () => {
         const dataMock = {
             firstName: '',
             lastName: '',
-            email: '',
+            email: 'info@nordicenergy.io',
             street: '',
             postcode: '',
             city: '',
             streetNumber: '',
-            newPassword: 'aa',
-            confirmNewPassword: 'asd',
+            newPassword: 'vamise',
+            confirmNewPassword: 'vamise',
             oldPassword: '',
             contract: {
                 paymentMethod: 'transfer',
@@ -185,7 +185,7 @@ describe('<Profile /> Container', () => {
         expect(notificationsActionPerformers.performPushNotification).toHaveBeenCalledWith({
             type: 'error',
             message:
-                "Can't load profile data from Lition web server. Please contact administrator to resolve the error."
+                "Can't load profile data from Nordic Energy web server. Please contact administrator to resolve the error."
         });
 
         notificationsActionPerformers.performPushNotification.mockRestore();
@@ -210,7 +210,7 @@ describe('<Profile /> Container', () => {
         const dataMock = {
             firstName: 'fname',
             lastName: 'lname',
-            email: 'ss@gmail.com',
+            email: 'info@nordicenergy.io',
             street: 'street',
             postcode: '111',
             city: 'city',

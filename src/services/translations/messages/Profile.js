@@ -132,12 +132,12 @@ const messages = defineMessages({
     sepaApprovalHelp: {
         id: 'app.profilePage.labels.sepaApprovalHelp',
         defaultMessage:
-            'The named account holder authorizes the Lition Energie GmbH to collect payments from his account by direct debit. At the same time, said account holder instructs its credit institution to redeem the direct debits drawn by the supplier into its account. Note: Within eight weeks, starting with the debit date, the reimbursement of the debited amount can be reclaimed. The conditions agreed with the bank apply.'
+            'The named account holder authorizes the Nordic Energy. Ltd to collect payments from his account by direct debit. At the same time, said account holder instructs its credit institution to redeem the direct debits drawn by the supplier into its account. Note: Within eight weeks, starting with the debit date, the reimbursement of the debited amount can be reclaimed. The conditions agreed with the bank apply.'
     },
     bitcoinMessage: {
         id: 'app.profilePage.labels.bitcoinMessage',
         defaultMessage:
-            'Lition accepts your Monthly payments in Bitcoin. Whenever your monthly installment is due, we will send you a link with instructions how to pay your Energy in Bitcoin or Bitcoin Cash, using the then current Bitcoin-Euro Exchange rate.'
+            'Nordic Energy accepts your Monthly payments in Bitcoin. Whenever your monthly installment is due, we will send you a link with instructions how to pay your Energy in Bitcoin or Bitcoin Cash, using the then current Bitcoin-Euro Exchange rate.'
     },
     sepaApprovalValidator: {
         id: 'app.profilePage.errors.sepaApprovalValidator',
@@ -214,7 +214,7 @@ const messages = defineMessages({
     profileLoadingErrorMessage: {
         id: 'app.profilePage.errors.profileLoadingErrorMessage',
         defineMessages:
-            "Can't load profile data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load profile data from Nordic Energy web server. Please contact administrator to resolve the error."
     }
 });
 

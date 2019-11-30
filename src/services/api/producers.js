@@ -1,6 +1,6 @@
 import Axios from 'axios';
 import { getUserData } from './users';
-import { LIMIT, PRODUCER_STATUSES, SESSION_API_URL } from '../../constants';
+import { LIMIT, NORDIC_ENERGY_POWERPLANT_ID, PRODUCER_STATUSES, SESSION_API_URL } from '../../constants';
 
 export function getProducer(id) {
     const result = { data: { producer: {} } };
@@ -29,7 +29,7 @@ export function getProducer(id) {
 }
 
 export function getCurrentMarketPrice() {
-    return Axios.get(`${SESSION_API_URL}/producers/${NORDIC_ENERGY_POWER_PLANT_ID}/get`).then(response => {
+    return Axios.get(`${SESSION_API_URL}/producers/${NORDIC_ENERGY_POWERPLANT_ID}/get`).then(response => {
         const price = response.data && response.data.producer && response.data.producer.deltaPrice;
         return {
             data: price

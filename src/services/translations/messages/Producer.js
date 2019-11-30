@@ -59,12 +59,12 @@ const messages = defineMessages({
     },
     switchBack: {
         id: 'app.producerPage.switchBack',
-        defaultMessage: 'Switch back to Lition Standard'
+        defaultMessage: 'Switch back to Nordic Energy Powerplant'
     },
     loadingErrorMessage: {
         id: 'app.producerPage.errors.loadingErrorMessage',
         defaultMessage:
-            "Can't load producer data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load producer data from Nordic Energy web server. Please contact administrator to resolve the error."
     },
     selectErrorMessage: {
         id: 'app.producerPage.errors.selectErrorMessage',

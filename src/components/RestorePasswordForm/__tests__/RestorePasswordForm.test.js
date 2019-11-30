@@ -26,7 +26,7 @@ describe('<RestorePasswordForm /> component', () => {
         const component = renderComponent();
 
         expect(component.find('h3.restore-password-form-title')).toHaveLength(1);
-        expect(component.find('TextField.email-field')).toHaveLength(1);
+        expect(component.find('info@nordicenergy.io')).toHaveLength(1);
         expect(component.find('Button')).toHaveLength(1);
         expect(component.find('a.login-link')).toHaveLength(1);
     });
@@ -40,10 +40,10 @@ describe('<RestorePasswordForm /> component', () => {
             .onChange({
                 target: {
                     name: 'email',
-                    value: 'email@example.com'
+                    value: 'info@nordicenergy.io'
                 }
             });
-        expect(component.state().email).toBe('email@example.com');
+        expect(component.state().email).toBe('info@nordicenergy.io');
     });
 
     it('should calls onSubmit callback when form was submitted', () => {

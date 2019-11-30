@@ -82,14 +82,14 @@
     "app.footer.about": "About Us",
     "app.footer.termsAndConditions": "Terms & Conditions",
     "app.footer.faq": "FAQ",
-    "app.footer.address": "2018. Nordic Energy. All rights reserved.",
+    "app.footer.address": "2019. Nordic Energy. All rights reserved.",
 
     "app.navigationCardsPanel.myProducer": "My Producer",
     "app.navigationCardsPanel.buyEnergy": "Buy Energy",
     "app.navigationCardsPanel.sellEnergy": "Sell Energy",
 
     "app.overviewPage.contractWaitingStatusCode":
-        "Your contract with Nordic Energy was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the \"Documents\" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.",
+        "Your contract with Nordic Energy was successfully, now we are waiting until the switch from your previous supplier is completed. Further details are available in the \"Documents\" section. After the switch, Nordic Energy is supplying you with Energy and you can choose a producer of your choice.",
     "app.overviewPage.contractOthersStatusCodes":
         "You are currently not supplied by Nordic Energy ({statusCodeTitle}). Feel free to contact us if you need more detail.",
     "app.recentTransactions.title": "Most Recent Transactions",
@@ -135,7 +135,7 @@
     "app.directTrading.metaMask.configurationForm.addressField": "User Ethereum address",
     "app.directTrading.metaMask.configurationForm.addressPlaceholder": "Select user Ethereum address",
     "app.directTrading.metaMask.configurationForm.button": "Add user Ethereum address",
-    "app.directTrading.metaMask.configurationForm.helperText": "Assign contract address to your Lition account",
+    "app.directTrading.metaMask.configurationForm.helperText": "Assign contract address to your Nordic Energy account",
     "app.directTrading.metaMask.tradePositions.title": "Open Trade Positions",
     "app.directTrading.metaMask.tradePositions.tradeVolumeField": "Trade Volume",
     "app.directTrading.metaMask.tradePositions.filterByDateField": "Filter by Date",
@@ -157,7 +157,7 @@
     "app.buyEnergyPage.filterLabel": "Filter by",
     "app.buyEnergyPage.filterOptionAll": "All",
     "app.buyEnergyPage.tradeDirectlyOnMarketLink": "Trade directly on market",
-    "app.buyEnergyPage.litionEnergyExchangeLink": "Nordic Energy energy exchange",
+    "app.buyEnergyPage.nordicenergyEnergyExchangeLink": "Nordic Energy energy exchange",
     "app.buyEnergyPage.loadingErrorMessage":
         "Can't load producers data from Nordic Energy web server. Please contact administrator to resolve the error.",
 
@@ -177,7 +177,7 @@
     "app.producerPage.ethereumAddress": "Ethereum Address",
     "app.producerPage.soldOutHelpText": "You can't select producers with \"sold out\" status",
     "app.producerPage.errors.loadingErrorMessage":
-        "Can't load producer data from Lition web server. Please contact administrator to resolve the error.",
+        "Can't load producer data from Nordic Energy web server. Please contact administrator to resolve the error.",
     "app.producerPage.errors.selectErrorMessage":
         "An error occurred while selecting the producer. Please contact administrator to resolve the error.",
     "app.producerPage.notifications.selectMessage":
@@ -314,7 +314,7 @@
     "app.submitMeterReadingsPage.errors.submitErrorMessage": "An error occurred while sending meter readings",
 
     "app.registrationPage.successfulRegistration": "Registration successful.",
-    "app.registrationPage.copyright": "Lition. All rights reserved.",
+    "app.registrationPage.copyright": "Nordic Energy. All rights reserved.",
     "app.registrationPage.firstStepTitle": "Supply Address",
     "app.registrationPage.secondStepTitle": "Start of Supply",
     "app.registrationPage.thirdStepTitle": "Additional Information",
@@ -434,9 +434,9 @@
     "app.registrationPage.termsAndConditionsForm.cancel": "Previous step",
     "app.registrationPage.fields.message": "Your message to us",
     "app.registrationPage.fields.agbApproval":
-        "Do you agree to <a href=\"https://www.nordicenergy.co/wp-content/uploads/2018/05/Nordic_Energy-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Terms & Conditions</a>, <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/011.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Revocation rights</a> und <a href=\"https://www.nordicenergy.co/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy statement</a>?",
+        "Do you agree to <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/11/Nordic_Energy-AGB-v2c.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Terms & Conditions</a>, <a href=\"https://www.nordicenergy.co/wp-content/uploads/2019/011.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Revocation rights</a> und <a href=\"https://www.nordicenergy.co/privacy-policy\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy statement</a>?",
     "app.registrationPage.fields.enableNotifications":
-        "May we contact you with respect to new developments, producs via email, telephone or by mail?",
+        "May we contact you with respect to new developments, products via email, telephone or by mail?",
     "app.registrationPage.errors.agbApprovalValidator": "Please accept the terms.",
     "app.registrationPage.errors.googleReCaptchaResponse": "Solve the CAPTCHA.",
 

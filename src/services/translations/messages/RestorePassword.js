@@ -19,7 +19,7 @@ const messages = defineMessages({
     },
     emptyEmailError: {
         id: 'app.restorePasswordPage.errors.emptyEmail',
-        defaultMessage: 'Enter your email.'
+        defaultMessage: 'Enter Your Email.'
     },
     invalidEmailError: {
         id: 'app.restorePasswordPage.errors.invalidEmail',

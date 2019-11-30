@@ -9,9 +9,9 @@ const messages = defineMessages({
         id: 'app.producerStatus.active',
         defaultMessage: 'active'
     },
-    standard: {
-        id: 'app.producerStatus.standard',
-        defaultMessage: 'standard'
+    powerplant: {
+        id: 'app.producerStatus.powerplant',
+        defaultMessage: 'powerplant'
     }
 });
 

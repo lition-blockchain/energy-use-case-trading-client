@@ -7,7 +7,7 @@ const messages = defineMessages({
     },
     copyright: {
         id: 'app.registrationPage.copyright',
-        defaultMessage: 'Lition. All rights reserved.'
+        defaultMessage: 'Nordic Energy. All rights reserved.'
     },
     stepsMessages: {
         1: {
@@ -215,7 +215,7 @@ const messages = defineMessages({
                     customerSpecificationOptions: [
                         {
                             id: 'app.registrationPage.options.customerSpecification.0',
-                            defaultMessage: 'Wechsel zu Lition'
+                            defaultMessage: 'Wechsel zu Nordic Energy'
                         },
                         {
                             id: 'app.registrationPage.options.customerSpecification.1',
@@ -399,7 +399,7 @@ const messages = defineMessages({
                     sepaApprovalHelp: {
                         id: 'app.registrationPage.helps.sepaApproval',
                         defaultMessage:
-                            'Der genannte Kontoinhaber ermächtigt die Lition Energie GmbH, Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungs-datum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.'
+                            'Der genannte Kontoinhaber ermächtigt die Nordic Energy. Ltd Zahlungen von seinem Konto mittels Lastschrift einzuziehen. Zugleich weist der genannte Kontoinhaber sein Kreditinstitut an, die von dem Lieferanten auf sein Konto gezogenen Lastschriften einzulösen. Hinweis: Innerhalb von acht Wochen, beginnend mit dem Belastungs-datum, kann die Erstattung des belasteten Betrages zurückverlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen.'
                     }
                 },
                 errors: {
@@ -504,7 +504,7 @@ const messages = defineMessages({
                     agbApproval: {
                         id: 'app.registrationPage.fields.agbApproval',
                         defaultMessage:
-                            'Mit <a href="https://www.lition.de/wp-content/uploads/2018/05/Lition-AGB-v2c.pdf" rel="noopener noreferrer" target="_blank">AGBs</a>, <a href="https://www.lition.de/wp-content/uploads/2018/05/Widerrufsformular.pdf" rel="noopener noreferrer" target="_blank">Widerruf</a> und <a href="https://www.lition.de/privacy-policy" rel="noopener noreferrer" target="_blank">Datenschutzerklärung</a> einverstanden?'
+                            'Mit <a href="https://www.nordicenergy.co/wp-content/uploads/2019/11/Nordic_Energy-AGB-v2c.pdf" rel="noopener noreferrer" target="_blank">AGBs</a>, <a href="https://www.nordicenergy.co/wp-content/uploads/2019/11/Widerrufsformular.pdf" rel="noopener noreferrer" target="_blank">Widerruf</a> und <a href="https://www.nordicenergy.co/privacy-policy" rel="noopener noreferrer" target="_blank">Datenschutzerklärung</a> einverstanden?'
                     },
                     enableNotifications: {
                         id: 'app.registrationPage.fields.enableNotifications',

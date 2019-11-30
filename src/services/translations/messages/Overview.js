@@ -4,12 +4,12 @@ const messages = defineMessages({
     contractWaitingStatusCode: {
         id: 'app.overviewPage.contractWaitingStatusCode',
         defaultMessage:
-            'Your contract with Lition was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Lition is supplying you with Energy and you can choose a producer of your choice.'
+            'Your contract with Nordic Energy was successfull, now we are waiting until the switch from your previous supplier is completed. Further details are available in the "Documents" section. After the switch, Nordic Energy is supplying you with Energy and you can choose a producer of your choice.'
     },
     contractOthersStatusCodes: {
         id: 'app.overviewPage.contractOthersStatusCodes',
         defaultMessage:
-            'You are currently not supplied by Lition ({statusCodeTitle}). Feel free to contact us if you need more detail.'
+            'You are currently not supplied by Nordic Energy ({statusCodeTitle}). Feel free to contact us if you need more detail.'
     },
     myProducer: {
         id: 'app.navigationCardsPanel.myProducer',
@@ -82,7 +82,7 @@ const messages = defineMessages({
     loadingErrorMessage: {
         id: 'app.recentTransactions.loadingErrorMessage',
         defaultMessage:
-            "Can't load transactions data from Lition web server. Please contact administrator to resolve the error."
+            "Can't load transactions data from Nordic Energy web server. Please contact administrator to resolve the error."
     }
 });
 
