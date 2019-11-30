@@ -100,7 +100,7 @@
     },
     "proxy": {
         "/api": {
-            "target": "https://fe.staging.nordicenergy.co",
+            "target": "https://powerchain.nordicenergy.co",
             "changeOrigin": true
         }
     }
