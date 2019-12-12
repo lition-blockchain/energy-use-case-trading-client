@@ -1,0 +1,14 @@
+.logo,
+.logo-medium {
+    width: 10.875rem;
+    height: 2.25rem;
+}
+
+.logo-small {
+    width: 8.875rem;
+    height: 1.875rem;
+}
+
+.logo {
+    cursor: pointer;
+}

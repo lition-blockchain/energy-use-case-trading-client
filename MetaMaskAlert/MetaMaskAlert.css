@@ -1,0 +1,116 @@
+.meta-mask-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: var(--loading-bg-color);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.meta-mask-alert--show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.meta-mask-alert-dialog {
+    overflow: hidden;
+    position: static;
+    width: 27em;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0.25em;
+    background: transparent;
+    font-size: 1rem;
+    will-change: opacity, transform;
+}
+
+.meta-mask-alert--show > .meta-mask-alert-dialog {
+    animation: show-meta-mask-alert 0.2s linear forwards;
+}
+
+.meta-mask-alert-message {
+    display: block;
+    padding: 1.625em 2.625em;
+    color: var(--table-text-color);
+    background: white;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+}
+
+.meta-mask-alert-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 1em 0 1.625em;
+
+    background: white;
+    border-top: var(--border-width) solid var(--confirm-dialog-border-color);
+
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.meta-mask-alert-links > * {
+    padding: 0 0.5em;
+}
+
+.meta-mask-alert-links strong {
+    color: var(--label-color);
+    font-weight: inherit;
+}
+
+.meta-mask-alert-links ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+}
+
+.meta-mask-alert a {
+    color: var(--button-primary-color);
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s ease-out;
+}
+
+.meta-mask-alert a:focus {
+    outline: var(--focused-control-outline);
+}
+
+/*.meta-mask-alert a:focus:not(:focus-visible) {*/
+/*outline: none;*/
+/*}*/
+
+.meta-mask-alert a:hover {
+    color: var(--button-primary-hov-color);
+}
+
+@media screen and (max-width: 767px) {
+    .meta-mask-alert-dialog {
+        width: 19em;
+    }
+}
+
+@keyframes show-meta-mask-alert {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-1rem);
+    }
+}

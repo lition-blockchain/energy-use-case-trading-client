@@ -1,0 +1,136 @@
+.menu-item,
+.menu-item-icon,
+.menu-item-label {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    justify-content: flex-start;
+    width: 100%;
+
+    color: var(--general-text-color);
+    background: white;
+    position: relative;
+
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+    will-change: color, background;
+}
+
+.menu-item:focus {
+    outline: var(--focused-control-outline);
+    z-index: 100;
+}
+
+/*.menu-item:focus:not(:focus-visible) {*/
+/*outline: none;*/
+/*}*/
+
+.menu-item--active {
+    color: white;
+    background: var(--active-item-color);
+    transition: 0.4s ease-in;
+}
+
+.menu-item-icon {
+    box-sizing: border-box;
+    justify-content: center;
+    width: var(--menu-icon-size);
+    height: var(--menu-icon-size);
+
+    color: white;
+    background: var(--bar-color);
+
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+}
+
+.menu-item:hover .menu-item-icon svg {
+    transform: scale(1.2);
+    will-change: transform;
+    transition: transform 0.2s;
+}
+
+.menu-item-label {
+    position: relative;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    width: calc(100% - var(--menu-icon-size));
+    height: var(--menu-icon-size);
+
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: uppercase;
+
+    will-change: color, background;
+}
+
+.menu-item:hover .menu-item-label {
+    background: var(--navigation-bg-color);
+    color: white;
+    transition: 0.2s;
+}
+
+.menu-item-label span {
+    position: relative;
+    padding-left: 2rem;
+    padding-top: 0.25rem;
+    user-select: none;
+}
+
+.menu-item-label span::before {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0.0625em;
+    background: white;
+    opacity: 0.5;
+    content: '';
+    transition: 0.2s;
+    will-change: width;
+}
+
+.menu-subitem--active .menu-item-label span::before {
+    width: calc(100% - 2rem);
+}
+
+.menu-item--active .menu-item-label::before {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 0.5rem);
+
+    width: 0;
+    height: 0;
+    border-top: 0.5rem solid transparent;
+    border-left: 0.5rem solid white;
+    border-bottom: 0.5rem solid transparent;
+
+    content: '';
+}
+
+.menu-item--disabled {
+    cursor: not-allowed;
+}
+
+.menu-item--disabled .menu-item-label span,
+.menu-item--disabled .menu-item-icon svg {
+    transform: scale(1);
+    opacity: 0.4;
+}
+
+.menu-item--disabled:hover .menu-item-label,
+.menu-item--disabled:focus .menu-item-label {
+    background: inherit;
+    color: inherit;
+}
+
+.menu-item--disabled:hover .menu-item-icon svg,
+.menu-item--disabled:focus .menu-item-icon svg {
+    transform: scale(1);
+}

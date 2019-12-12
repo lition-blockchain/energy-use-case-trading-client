@@ -1,0 +1,36 @@
+.login-form {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.username-field {
+    margin-bottom: 3em;
+}
+
+.password-field {
+    margin-bottom: 2.375em;
+}
+
+.reset-password-link {
+    color: inherit;
+    transition: color 0.2s ease-in;
+    text-decoration: none;
+}
+
+.reset-password-link:focus {
+    outline: var(--focused-control-outline);
+}
+
+/*.reset-password-link:focus:not(:focus-visible) {*/
+/*outline: none;*/
+/*}*/
+
+.reset-password-link:hover {
+    color: white;
+}
+
+@media (max-width: 1023px) {
+    .login-form button {
+        width: 100%;
+    }
+}

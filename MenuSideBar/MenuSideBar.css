@@ -1,0 +1,27 @@
+.menu-side-bar {
+    overflow-y: auto;
+    width: var(--side-bar-width);
+    height: 100%;
+    background: transparent linear-gradient(to right, var(--bar-color), var(--bar-color)) no-repeat;
+    background-size: var(--menu-icon-size) 100%;
+    border-right: var(--border-width) solid var(--border-on-light-color);
+}
+
+.menu-side-bar .menu-item-label {
+    border-bottom: var(--border-width) solid var(--border-on-light-color);
+}
+
+.menu-side-bar .menu-item-icon {
+    border-bottom: var(--border-width) solid var(--border-on-dark-color);
+}
+
+.menu-side-bar .menu-item--active .menu-item-label {
+    border-bottom: var(--border-width) solid transparent;
+}
+.menu-side-bar .menu-item:hover .menu-item-label {
+    border-bottom: var(--border-width) solid var(--navigation-bg-color);
+}
+
+.menu-side-bar .menu-item--disabled:hover .menu-item-label {
+    border-bottom: var(--border-width) solid var(--border-on-light-color);
+}

@@ -1,0 +1,49 @@
+.spinner {
+    display: inline-block;
+    animation: rotate 2s linear infinite;
+}
+
+.spinner--size-sm {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.spinner--size-md {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.spinner--size-lg {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.spinner .path {
+    animation: dash 1.5s ease-in-out infinite;
+
+    /* stroke-dasharray and stroke-dashoffset as fallback for IE11  */
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35px;
+    stroke-linecap: round;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124px;
+    }
+}

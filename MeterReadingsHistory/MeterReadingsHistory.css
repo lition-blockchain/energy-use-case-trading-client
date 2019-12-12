@@ -1,0 +1,44 @@
+.meter-readings-history {
+    width: 100%;
+    background: white;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.meter-readings-history caption {
+    padding: 2.5em 0 0 0;
+    color: var(--general-dark-text-color);
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.65;
+    text-align: center;
+    background-color: var(--app-bg-color);
+    height: 3.75em;
+}
+
+.meter-readings-history caption,
+.meter-readings-history tr td {
+    border-bottom: var(--border-width) solid var(--border-on-light-color);
+}
+
+.meter-readings-history tr td {
+    padding: 2.2em 0 2.1em 1.1em;
+    font-size: 0.875em;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.meter-readings-history tr td:first-child {
+    color: var(--label-color);
+}
+
+.meter-readings-history tr td:last-child {
+    color: var(--table-text-color);
+    font-weight: bold;
+}
+
+.meter-readings-loader {
+    text-align: center;
+    padding: 1em;
+}

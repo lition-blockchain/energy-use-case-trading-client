@@ -1,0 +1,62 @@
+.meter-reading-form {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.meter-reading-form-fields {
+    max-width: 35.625em;
+}
+
+.meter-reading-form-fields > div {
+    box-sizing: border-box;
+    margin-bottom: 4em;
+    width: 100%;
+}
+
+.meter-reading-form-fields > div:first-child {
+    margin-bottom: 2.2em;
+}
+
+.meter-reading-form-field-helper-text {
+    color: var(--input-helper-text-color);
+}
+
+.meter-reading-form-field-helper-text--wrong {
+    color: var(--error-text-color);
+}
+
+.meter-reading-form-actions {
+    display: flex;
+    align-items: center;
+    min-height: 5em;
+}
+
+.meter-reading-form-actions::after {
+    /* Fix align-items: center with min-height for IE11 */
+    min-height: inherit;
+    content: '';
+    font-size: 0;
+}
+
+@media (max-width: 1023px) {
+    .meter-reading-form-fields {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .meter-reading-form-fields > div {
+        padding: 0;
+    }
+
+    .meter-reading-form-actions {
+        display: block;
+        padding: 0 0 2em 0;
+        min-height: 0;
+        text-align: center;
+    }
+
+    .meter-reading-form-actions > .button {
+        width: 100%;
+    }
+}
